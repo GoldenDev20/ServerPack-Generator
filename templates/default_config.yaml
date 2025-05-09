@@ -1,0 +1,33 @@
+modpack:
+  path: "./modpack"
+  auto_exclude_client: true
+  manual_excludes: []
+  include_dirs:
+    - "configs"
+    - "kubejs"
+    - "defaultconfigs"
+    - "blueprints"
+
+server:
+  jar:
+    auto_download: true
+    version: "1.20.1"
+    modloader: "forge"
+    modloader_version: "47.4.0"
+
+jvm:
+  memory:
+    initial: "2G"
+    max: "4G"
+  extra_args: ""
+
+output:
+  directory: "./serverpack"
+  create_zip: true
+  zip_name: "{modpack_name}_serverpack"
+  include_readme: true
+  readme_template: |
+    # {modpack_name} Server Pack
+    **Minecraft Version**: {mc_version}
+    **Modloader**: {modloader} {modloader_version}
+    **Memory Settings**: {jvm_args}

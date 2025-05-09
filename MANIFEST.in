@@ -1,0 +1,5 @@
+include README.md
+include LICENSE
+include default_config.yaml
+recursive-include templates *
+recursive-include documentation *
