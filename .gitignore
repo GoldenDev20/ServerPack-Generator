@@ -1,0 +1,108 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.pdm-python/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDEs and editors
+# VSCode
+.vscode/
+# PyCharm
+.idea/
+# Eclipse
+.project
+.pydevproject
+.metadata
+
+# MyPy / Pytype / Pylint / Ruff
+.mypy_cache/
+.dmypy.json
+.pytype/
+.pylint.d/
+.ruff_cache/
+
+# Logs and temp files
+*.log
+temp/
+logs/
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Server pack artifacts
+serverpack.zip
+*.tar.gz
+*.7z
+
+# Custom output directories
+output/
+serverpack/
+downloads/
+*.sh~
+*.bat~
+
+# Optional: exclude secrets (if any config gets sensitive)
+secrets.yaml
+.env
+.env.*
+
+# Optional: Python Poetry, Pipenv, Hatch, PDM
+poetry.lock
+Pipfile.lock
+pdm.lock
+hatch.lock
